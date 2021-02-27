@@ -1,3 +1,3 @@
 # Codable
 
-All code in content.swift file
+All code in contents.swift file
