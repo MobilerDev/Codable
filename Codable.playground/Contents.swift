@@ -34,7 +34,7 @@ print(jsonStr!)
 let decoder = JSONDecoder()
 
 //JSON verimizi decode ederek kendi struct'ımızın tipinde bir nesne elde edelim
-let decoderHoroscopeObject = try! decoder.decode(Horoscope.self, from: json)
+let decodedHoroscopeObject = try! decoder.decode(Horoscope.self, from: json)
 
 //Daha sonrasında ekranda görelim
 print("Name: " + decoderHoroscopeObject.name + "\nDate: " + decoderHoroscopeObject.date)
